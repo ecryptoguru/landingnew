@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Script from 'next/script';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MessageCircle, Lock, Cpu, Headphones } from "lucide-react";
@@ -8,6 +9,11 @@ import { MessageCircle, Lock, Cpu, Headphones } from "lucide-react";
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
+      <Script
+        src="https://fusion-chat-widget.vercel.app/widget.js"
+        data-organization-id="org_32NMknmpQgC8ejZCT9NZyn8kxsl"
+        strategy="afterInteractive"
+      />
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center px-6 py-24 text-center">
         <motion.h1
