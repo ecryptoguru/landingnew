@@ -45,7 +45,7 @@ export default function LandingPage() {
               <CardContent className="p-6 text-center">
                 <MessageCircle className="w-12 h-12 mx-auto mb-4 text-blue-600" />
                 <h3 className="font-semibold text-lg mb-2">Unified Communication</h3>
-                <p className="text-gray-600">Seamlessly integrate chat, voice, and AI-powered conversations in one platform.</p>
+                <p className="text-gray-600">Seamlessly integrate chat, voice and AI-powered conversations in one platform.</p>
               </CardContent>
             </Card>
             <Card className="rounded-2xl shadow hover:shadow-lg transition">
@@ -77,7 +77,7 @@ export default function LandingPage() {
       <section className="bg-white py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-4">Experience FusionChat in Action</h2>
-          <p className="text-gray-600 mb-8">See how conversational AI, voice integration, and a robust architecture combine to redefine customer support.</p>
+          <p className="text-gray-600 mb-8">See how conversational AI, voice integration and a robust architecture combine to redefine customer support.</p>
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-2xl shadow">
             Launch Interactive Demo
           </Button>
