@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Script from 'next/script';
+import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MessageCircle, Lock, Cpu, Headphones } from "lucide-react";
@@ -96,7 +97,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© {new Date().getFullYear()} FusionwaveAI. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
+            <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
             <a href="#" className="hover:text-white">Terms of Service</a>
             <a href="#" className="hover:text-white">Contact</a>
           </div>
